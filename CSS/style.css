@@ -1,0 +1,96 @@
+
+*{
+	padding: 0;
+	margin: 0;
+} 
+section{
+	max-width: 100%;
+	background-color: #ebebeb;
+	padding-left: 140px;
+}
+section div{
+	background-color: white;
+	max-width: 800px;
+	display: block;
+	
+
+}
+section div p {
+	padding: 430px 85px 330px 65px;
+	color: #464646;
+}
+section div div{
+	justify-content: space-between;
+	display: flex;
+	padding: 0px 30px;
+}
+section div div ul{
+	width: 185px;
+	height: auto;
+	list-style-type: none;
+	border-right: 1px solid red;
+
+}
+section div div ul li{
+	padding: 7px 25px;
+}
+/* общая первый стобец   табличной части общая  */
+div ul:first-child{
+	font-size: 20px;
+	color: #1f2c39;
+	border-right: solid #1f2c39;
+	height: fit-content;
+}
+/* общая второй столбец  табличной части общая  */
+div ul:nth-child(2){
+	font-size: 20px;
+	color: #03246c;
+	border-right:  solid #03246c;
+	height: fit-content;
+}
+/* общая третий столбец  табличной части общая  */
+div ul:nth-child(3){
+	font-size: 20px;
+	color: #028090;
+	border-right:  solid #028090;
+	height: fit-content;
+}
+/* общая 4 столбец  табличной части общая  */
+div ul:nth-child(4){
+	font-size: 20px;
+	color: #28aeaf;
+	border-right: solid #28aeaf;
+	height: fit-content;
+}
+/* 1столбец 1 строка */
+div ul:first-child li:first-child{
+	background-color:#1f2c39 ;
+	color: white;
+	border-right: 2px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	margin-top: 7px;
+}
+/* 2 столбец 1 строка */
+div ul:nth-child(2) li:first-child{
+	background-color:#03246c ;
+	color: white;
+	border-right: 2px;
+	margin-top: 7px;
+	
+}
+/* 3 столбец 1 строка */
+div ul:nth-child(3) li:first-child{
+	background-color:#028090 ;
+	color: white;
+	border-right: 2px;
+	margin-top: 7px;
+	align-items: center;
+}
+/* 4 столбец 1 строка */
+div ul:nth-child(4) li:first-child{
+	background-color:#28aeaf ;
+	color: white;
+	border-right: 2px;
+	margin-top: 7px;
+}
